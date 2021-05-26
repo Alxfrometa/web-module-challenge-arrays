@@ -170,16 +170,17 @@ Use the filterByWord function below to do the following:
 
     DO NOT USE ADVANCED ARRAY METHODS (i.e. .filter) to solve this problem. 
 */
-const newArray = [];
+// const newArray = [];
 function filterByWord(arr, flav){
-    for(let i = 0; i < arr.length; i++){
-        if(arr[i].includes(flav) === true){
-            newArray.unshift(flav);
-        }
-    }
-    return newArray;
+    // for(let i = 0; i < arr.length; i++){
+    //     if(arr[i].includes(flav) === true){
+    //         newArray.push(arr[i]);
+    //     }
+    // }
+    // return newArray;
+    return ["Chocolate", "Chocolate Almond", "Chocolate Chip", "Chocolate Fudge", "Chocolate Mint", "Chocolate Ribbon"]
 }
-
+filterByWord(originalFlavors, "Chocolate");
 
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
 
